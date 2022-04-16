@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  color: black;
+  background-color: #50C878;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Header Style */
+
+#header-nav{
+  background-color: #002395;
+  border-radius: 0;
+  border: 1px solid black;
+  padding: 10px;
+}
+.navbar-brand {
+  margin: auto auto auto zero;
+}
+
+.navbar-brand h1 { /* Brand name */
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: .75;
+  margin: 0 auto 0;
+  color: black;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-item{
+  margin: 0 auto 0;
+  color: black;
+  font-weight: bold;
+}
+
+
+/* End of Header Styles */
+
+/* Main content */
+
+h2{
+  margin: 30px auto 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.row{
+  width: 100%;
+  margin: 0 auto 0;
+}
+.content{
+  width: 90%;
+  height: auto;
+  margin: 0 auto 10px;
+  background-color: grey;
+}
+
+.dish{
+  background-color: #002395;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+p{
+  margin: 0 auto 0;
+  font-size: 0.8em;
+  height: auto;
+  padding: 5px;
+}
+
+.row a{
+  font-size: 0.8em;
+}
+@media (max-width: 575px) {
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    flex: 0 0 auto;
+  }
+  .col-xs-12 {
+    width: 100%%;
+  }
